@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.Chicago"
+       name="[COLOR orange]Chicago[/COLOR]"
+	   version="5.0.0"
+	   provider-name="Luis Serna">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR orange]Chicago[/COLOR]Television gratis para todos</summary>
+<description lang="en">[COLOR orange]Chicago[/COLOR] Recopilacion de Canales transmitidos por internet con el mejor contenido televisivo,unete a nosotros facebook #[COLOR steelblue]https://www.facebook.com/groups/lovechicago[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.chicagowizard" name="Chicago Wizard" version="1.0.0" provider-name="Chicago Build">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Chicago Build</summary>
+		<description lang="en">Chicago Wizard</description>
+		<disclaimer lang="en">Luis Serna</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.latinos" name="[COLOR dodgerblue]la[COLOR lightblue]ti[/COLOR]nos[/COLOR]" version="1.0.0" provider-name="latinos">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>latinos based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR cyan][B]latinos[/B][/COLOR] [COLOR white]- Is an Add-on [COLOR blue][B]Kodi[/B][/COLOR] with which you can enjoy free TV channels, if you are charging for this Add-on asks for money back.
+This Add-on has a collection of list live tv channels mostly in Spanish language, Thank you for your preference [COLOR cyan][B]latinos[/B][/COLOR] based on LivetreamsPro by SHANI[/COLOR]</description>
+<description lang="es">[COLOR cyan][B]latinos[/B][/COLOR][COLOR white] - Es un Add-on de [COLOR blue][B]Kodi[/B][/COLOR] con el cual podrás disfrutar de canales de tv y películas gratis, si te están cobrando por este Add-on pide la devolución de tu dinero.
+Gracias por su preferencia [COLOR cyan][B]latinos[/B][/COLOR] based on LivetreamsPro by SHANI[/COLOR]</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
